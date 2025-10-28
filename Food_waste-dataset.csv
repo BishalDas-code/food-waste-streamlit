@@ -1,0 +1,761 @@
+Customer_Name,Food_Name,Plate_Size,Serving_Food_Weight_g,Leftover_Food_Weight_g,Price_Rs
+Customer_1,Ice Cream,2,400,63.7,131
+Customer_2,Soup,2,400,71,146
+Customer_3,Pizza,1,250,49.4,250
+Customer_4,Burger,1,250,19.6,150
+Customer_5,Thali,3,550,169.1,606
+Customer_6,Noodles,1,250,34.4,160
+Customer_7,Biryani,1,250,96.7,200
+Customer_8,Pasta,1,250,69.6,220
+Customer_9,Sandwich,1,250,57.4,140
+Customer_10,Noodles,2,400,67.4,237
+Customer_11,Thali,3,550,72.2,601
+Customer_12,Salad,1,250,98.2,120
+Customer_13,Burger,2,400,77.8,215
+Customer_14,Dosa,3,550,182.4,250
+Customer_15,Dosa,2,400,118.7,197
+Customer_16,Ice Cream,2,400,144.4,129
+Customer_17,Salad,2,400,60.3,185
+Customer_18,Pasta,1,250,40.7,220
+Customer_19,Thali,3,550,127.3,612
+Customer_20,Burger,3,550,128,280
+Customer_21,Salad,2,400,73.4,175
+Customer_22,Sandwich,1,250,84,140
+Customer_23,Dosa,3,550,24.4,260
+Customer_24,Soup,2,400,101.9,143
+Customer_25,Sandwich,2,400,21.1,208
+Customer_26,Noodles,2,400,40.4,246
+Customer_27,Ice Cream,1,250,99.1,90
+Customer_28,Noodles,1,250,20.1,160
+Customer_29,Pizza,2,400,83.1,360
+Customer_30,Noodles,2,400,43.8,241
+Customer_31,Fried Rice,3,550,105.5,357
+Customer_32,Fried Rice,2,400,130.3,270
+Customer_33,Thali,3,550,68.6,620
+Customer_34,Thali,3,550,56.2,608
+Customer_35,Biryani,2,400,97.3,293
+Customer_36,Noodles,3,550,45.5,315
+Customer_37,Salad,1,250,82.9,120
+Customer_38,Fried Rice,2,400,18.5,262
+Customer_39,Thali,2,400,118.8,441
+Customer_40,Burger,3,550,9.4,292
+Customer_41,Ice Cream,2,400,109.3,128
+Customer_42,Soup,1,250,7.3,100
+Customer_43,Salad,1,250,4.1,120
+Customer_44,Ice Cream,1,250,93.5,90
+Customer_45,Burger,3,550,75.5,305
+Customer_46,Fried Rice,2,400,143.4,277
+Customer_47,Fried Rice,2,400,19.2,258
+Customer_48,Noodles,3,550,33,332
+Customer_49,Dosa,1,250,37.5,130
+Customer_50,Fried Rice,3,550,65.5,371
+Customer_51,Noodles,2,400,11.9,230
+Customer_52,Burger,3,550,102.6,287
+Customer_53,Pizza,2,400,102.6,365
+Customer_54,Thali,2,400,69.7,462
+Customer_55,Thali,1,250,65.9,300
+Customer_56,Pizza,2,400,121.4,384
+Customer_57,Burger,1,250,18.2,150
+Customer_58,Pizza,2,400,77.1,387
+Customer_59,Pasta,2,400,36.4,317
+Customer_60,Thali,2,400,117.2,453
+Customer_61,Biryani,2,400,66.4,294
+Customer_62,Dosa,1,250,86.8,130
+Customer_63,Thali,1,250,82.3,300
+Customer_64,Burger,3,550,60.2,312
+Customer_65,Sandwich,2,400,153.6,216
+Customer_66,Thali,1,250,4.6,300
+Customer_67,Soup,1,250,82.1,100
+Customer_68,Ice Cream,1,250,63.5,90
+Customer_69,Thali,3,550,45.2,587
+Customer_70,Dosa,3,550,8.7,268
+Customer_71,Noodles,3,550,131.3,327
+Customer_72,Sandwich,2,400,77.6,202
+Customer_73,Ice Cream,2,400,10,127
+Customer_74,Pasta,3,550,168.7,427
+Customer_75,Ice Cream,1,250,19.5,90
+Customer_76,Soup,2,400,77.7,142
+Customer_77,Thali,1,250,56.4,300
+Customer_78,Ice Cream,1,250,27.1,90
+Customer_79,Burger,1,250,4.4,150
+Customer_80,Pizza,2,400,123.1,350
+Customer_81,Soup,2,400,63.1,152
+Customer_82,Biryani,3,550,130.9,414
+Customer_83,Burger,1,250,99.1,150
+Customer_84,Burger,3,550,202.3,295
+Customer_85,Burger,1,250,21.9,150
+Customer_86,Sandwich,2,400,143,202
+Customer_87,Burger,3,550,180.5,309
+Customer_88,Fried Rice,2,400,140.3,265
+Customer_89,Thali,1,250,10.1,300
+Customer_90,Salad,2,400,6.6,181
+Customer_91,Burger,2,400,139.4,215
+Customer_92,Burger,1,250,42.2,150
+Customer_93,Pasta,1,250,27.9,220
+Customer_94,Fried Rice,2,400,16.5,278
+Customer_95,Dosa,3,550,177.2,258
+Customer_96,Noodles,1,250,6,160
+Customer_97,Pizza,2,400,117.5,382
+Customer_98,Pizza,2,400,64.3,379
+Customer_99,Noodles,3,550,125.3,323
+Customer_100,Salad,2,400,11,185
+Customer_101,Noodles,1,250,38.2,160
+Customer_102,Ice Cream,1,250,95.6,90
+Customer_103,Burger,2,400,116.2,229
+Customer_104,Soup,1,250,99.5,100
+Customer_105,Sandwich,1,250,27.7,140
+Customer_106,Pasta,2,400,146.6,340
+Customer_107,Sandwich,1,250,59.8,140
+Customer_108,Biryani,2,400,37.5,280
+Customer_109,Salad,2,400,3.3,171
+Customer_110,Pizza,1,250,2.7,250
+Customer_111,Dosa,1,250,95.9,130
+Customer_112,Thali,2,400,104.2,450
+Customer_113,Ice Cream,1,250,57.8,90
+Customer_114,Soup,1,250,6.9,100
+Customer_115,Soup,1,250,7.6,100
+Customer_116,Biryani,2,400,99.9,305
+Customer_117,Soup,1,250,9.7,100
+Customer_118,Biryani,1,250,27.5,200
+Customer_119,Biryani,1,250,33.2,200
+Customer_120,Noodles,2,400,101.6,242
+Customer_121,Thali,1,250,38.2,300
+Customer_122,Dosa,2,400,134.6,188
+Customer_123,Soup,2,400,50.4,143
+Customer_124,Biryani,3,550,6.6,412
+Customer_125,Salad,1,250,94,120
+Customer_126,Ice Cream,1,250,1.3,90
+Customer_127,Burger,2,400,33.1,225
+Customer_128,Biryani,2,400,57.7,297
+Customer_129,Burger,2,400,33.9,226
+Customer_130,Sandwich,2,400,115.8,215
+Customer_131,Noodles,1,250,14.6,160
+Customer_132,Thali,1,250,95.1,300
+Customer_133,Soup,1,250,95.8,100
+Customer_134,Soup,2,400,124,151
+Customer_135,Fried Rice,3,550,69.9,353
+Customer_136,Fried Rice,3,550,188.3,350
+Customer_137,Fried Rice,2,400,114.7,268
+Customer_138,Biryani,1,250,82.9,200
+Customer_139,Soup,2,400,139.6,152
+Customer_140,Ice Cream,2,400,16.8,135
+Customer_141,Ice Cream,2,400,87.7,131
+Customer_142,Dosa,2,400,45.3,198
+Customer_143,Pasta,1,250,62.1,220
+Customer_144,Burger,2,400,40.4,224
+Customer_145,Pasta,1,250,0.2,220
+Customer_146,Pasta,3,550,56.7,413
+Customer_147,Pizza,1,250,64.2,250
+Customer_148,Pizza,1,250,38.7,250
+Customer_149,Thali,2,400,28.7,429
+Customer_150,Salad,2,400,75.3,177
+Customer_151,Thali,3,550,152.1,583
+Customer_152,Ice Cream,1,250,57.8,90
+Customer_153,Thali,1,250,9.3,300
+Customer_154,Fried Rice,1,250,53.8,180
+Customer_155,Fried Rice,3,550,178.8,366
+Customer_156,Thali,1,250,76.3,300
+Customer_157,Thali,3,550,30.4,561
+Customer_158,Noodles,1,250,25,160
+Customer_159,Dosa,3,550,66,254
+Customer_160,Dosa,3,550,53.3,250
+Customer_161,Dosa,3,550,172.9,280
+Customer_162,Noodles,3,550,216.2,329
+Customer_163,Biryani,3,550,172.6,407
+Customer_164,Pizza,3,550,55.6,492
+Customer_165,Ice Cream,2,400,74.8,133
+Customer_166,Dosa,1,250,72.8,130
+Customer_167,Thali,3,550,121.8,598
+Customer_168,Ice Cream,1,250,67.9,90
+Customer_169,Burger,3,550,153.5,302
+Customer_170,Noodles,2,400,84.9,227
+Customer_171,Dosa,2,400,46.7,199
+Customer_172,Burger,2,400,32.6,217
+Customer_173,Thali,3,550,216.1,588
+Customer_174,Soup,1,250,34.7,100
+Customer_175,Fried Rice,2,400,36.2,269
+Customer_176,Dosa,2,400,145.6,187
+Customer_177,Pizza,2,400,35.8,353
+Customer_178,Pizza,2,400,48.2,373
+Customer_179,Salad,1,250,65.8,120
+Customer_180,Pizza,3,550,16.2,499
+Customer_181,Dosa,1,250,76.8,130
+Customer_182,Pasta,1,250,44.2,220
+Customer_183,Sandwich,2,400,76.1,210
+Customer_184,Biryani,2,400,68,298
+Customer_185,Dosa,1,250,43.9,130
+Customer_186,Pasta,1,250,22.7,220
+Customer_187,Burger,1,250,33.5,150
+Customer_188,Biryani,2,400,28.9,280
+Customer_189,Thali,2,400,9.3,443
+Customer_190,Biryani,2,400,88.1,283
+Customer_191,Pizza,3,550,75,480
+Customer_192,Salad,2,400,63.6,169
+Customer_193,Ice Cream,1,250,12.5,90
+Customer_194,Thali,1,250,66.1,300
+Customer_195,Salad,2,400,143.2,176
+Customer_196,Salad,1,250,80.6,120
+Customer_197,Sandwich,1,250,87.4,140
+Customer_198,Pizza,1,250,54.1,250
+Customer_199,Fried Rice,1,250,29.4,180
+Customer_200,Soup,2,400,12.3,141
+Customer_201,Pizza,2,400,120.1,354
+Customer_202,Pasta,2,400,28.8,325
+Customer_203,Ice Cream,1,250,24,90
+Customer_204,Pasta,1,250,57.9,220
+Customer_205,Soup,1,250,58.1,100
+Customer_206,Fried Rice,3,550,153.5,342
+Customer_207,Ice Cream,1,250,48.5,90
+Customer_208,Noodles,3,550,148.2,324
+Customer_209,Biryani,3,550,83.6,429
+Customer_210,Pizza,1,250,50.2,250
+Customer_211,Sandwich,1,250,75,140
+Customer_212,Noodles,2,400,58.4,240
+Customer_213,Sandwich,1,250,27.7,140
+Customer_214,Dosa,2,400,95.9,191
+Customer_215,Biryani,2,400,94,302
+Customer_216,Ice Cream,2,400,95.6,136
+Customer_217,Noodles,1,250,66.8,160
+Customer_218,Salad,1,250,45.5,120
+Customer_219,Soup,1,250,53.3,100
+Customer_220,Soup,2,400,121.1,152
+Customer_221,Salad,2,400,91.8,175
+Customer_222,Burger,1,250,34.7,150
+Customer_223,Noodles,3,550,161.1,324
+Customer_224,Ice Cream,2,400,78.7,137
+Customer_225,Pizza,2,400,119,356
+Customer_226,Dosa,3,550,171.9,260
+Customer_227,Fried Rice,3,550,16.9,352
+Customer_228,Thali,1,250,94,300
+Customer_229,Noodles,1,250,26.7,160
+Customer_230,Fried Rice,2,400,87.2,272
+Customer_231,Biryani,1,250,88.8,200
+Customer_232,Salad,2,400,128.4,174
+Customer_233,Pasta,1,250,71.1,220
+Customer_234,Fried Rice,3,550,118.4,387
+Customer_235,Pasta,2,400,142.2,317
+Customer_236,Ice Cream,2,400,52,132
+Customer_237,Burger,1,250,57.2,150
+Customer_238,Burger,2,400,140.5,226
+Customer_239,Noodles,2,400,34.1,236
+Customer_240,Ice Cream,1,250,27.1,90
+Customer_241,Ice Cream,1,250,27.2,90
+Customer_242,Pasta,3,550,36.2,431
+Customer_243,Ice Cream,2,400,104.4,134
+Customer_244,Soup,1,250,10.5,100
+Customer_245,Pizza,1,250,54.8,250
+Customer_246,Pasta,1,250,22.8,220
+Customer_247,Ice Cream,2,400,39.7,128
+Customer_248,Soup,2,400,154.3,149
+Customer_249,Ice Cream,1,250,41.7,90
+Customer_250,Noodles,2,400,77.3,248
+Customer_251,Pasta,2,400,115.4,313
+Customer_252,Soup,1,250,58.9,100
+Customer_253,Biryani,2,400,45.8,305
+Customer_254,Noodles,1,250,42.8,160
+Customer_255,Noodles,3,550,144.4,323
+Customer_256,Pizza,3,550,165.1,496
+Customer_257,Sandwich,1,250,57.5,140
+Customer_258,Salad,1,250,56.2,120
+Customer_259,Noodles,3,550,142.1,324
+Customer_260,Pizza,1,250,80.2,250
+Customer_261,Fried Rice,2,400,12.3,274
+Customer_262,Pizza,2,400,14.6,373
+Customer_263,Thali,1,250,97.1,300
+Customer_264,Fried Rice,3,550,156.2,350
+Customer_265,Dosa,3,550,103.2,257
+Customer_266,Dosa,1,250,33.9,130
+Customer_267,Sandwich,1,250,18.5,140
+Customer_268,Pizza,2,400,154,378
+Customer_269,Fried Rice,3,550,150,361
+Customer_270,Biryani,2,400,69.4,297
+Customer_271,Fried Rice,3,550,181.6,353
+Customer_272,Pasta,3,550,108.1,447
+Customer_273,Pizza,3,550,212.1,501
+Customer_274,Fried Rice,2,400,87.5,273
+Customer_275,Noodles,2,400,130.5,227
+Customer_276,Salad,1,250,53.5,120
+Customer_277,Pizza,3,550,197,510
+Customer_278,Sandwich,1,250,76,140
+Customer_279,Soup,1,250,28.4,100
+Customer_280,Noodles,3,550,139,313
+Customer_281,Sandwich,1,250,65.4,140
+Customer_282,Noodles,2,400,51.9,226
+Customer_283,Soup,1,250,58.2,100
+Customer_284,Fried Rice,1,250,40.7,180
+Customer_285,Burger,1,250,82.3,150
+Customer_286,Fried Rice,2,400,74.8,261
+Customer_287,Soup,1,250,82.6,100
+Customer_288,Soup,2,400,57.7,140
+Customer_289,Dosa,2,400,52,186
+Customer_290,Pasta,3,550,8.7,431
+Customer_291,Sandwich,1,250,79.1,140
+Customer_292,Burger,3,550,134.9,307
+Customer_293,Soup,2,400,57.2,141
+Customer_294,Biryani,2,400,131.3,290
+Customer_295,Pizza,1,250,58.4,250
+Customer_296,Sandwich,1,250,40.2,140
+Customer_297,Ice Cream,2,400,0.8,139
+Customer_298,Ice Cream,1,250,54.2,90
+Customer_299,Pizza,3,550,194.6,505
+Customer_300,Pasta,2,400,18.3,320
+Customer_301,Noodles,1,250,13.1,160
+Customer_302,Burger,2,400,87.4,232
+Customer_303,Biryani,1,250,33.2,200
+Customer_304,Pizza,1,250,81.1,250
+Customer_305,Sandwich,2,400,156.2,214
+Customer_306,Ice Cream,2,400,130.5,132
+Customer_307,Biryani,1,250,69.6,200
+Customer_308,Pasta,2,400,139.2,337
+Customer_309,Sandwich,2,400,118.9,216
+Customer_310,Pizza,2,400,84.8,353
+Customer_311,Noodles,3,550,3.5,300
+Customer_312,Thali,3,550,130.7,619
+Customer_313,Pizza,1,250,58.7,250
+Customer_314,Soup,2,400,115.4,141
+Customer_315,Fried Rice,1,250,90,180
+Customer_316,Ice Cream,1,250,61,90
+Customer_317,Thali,1,250,73.3,300
+Customer_318,Ice Cream,1,250,96.1,90
+Customer_319,Burger,1,250,75.2,150
+Customer_320,Fried Rice,2,400,125.5,266
+Customer_321,Pasta,2,400,101.6,335
+Customer_322,Burger,2,400,150.8,231
+Customer_323,Fried Rice,1,250,66.5,180
+Customer_324,Sandwich,2,400,62.6,197
+Customer_325,Soup,1,250,15.4,100
+Customer_326,Biryani,3,550,144.4,370
+Customer_327,Noodles,1,250,21.7,160
+Customer_328,Biryani,2,400,90.3,297
+Customer_329,Dosa,2,400,156.3,195
+Customer_330,Sandwich,1,250,32.2,140
+Customer_331,Sandwich,2,400,23.5,207
+Customer_332,Biryani,3,550,113.7,371
+Customer_333,Thali,3,550,119.4,563
+Customer_334,Biryani,2,400,34.5,292
+Customer_335,Noodles,1,250,71.7,160
+Customer_336,Biryani,1,250,80.3,200
+Customer_337,Pasta,3,550,135.6,411
+Customer_338,Biryani,2,400,145.9,309
+Customer_339,Soup,2,400,80.7,143
+Customer_340,Ice Cream,1,250,68.2,90
+Customer_341,Ice Cream,1,250,83.1,90
+Customer_342,Soup,2,400,75.7,148
+Customer_343,Thali,2,400,145.6,465
+Customer_344,Ice Cream,2,400,3.7,138
+Customer_345,Noodles,2,400,3.7,234
+Customer_346,Pasta,1,250,1.7,220
+Customer_347,Pizza,3,550,127.6,490
+Customer_348,Salad,1,250,34.9,120
+Customer_349,Thali,3,550,109,563
+Customer_350,Biryani,2,400,150.7,310
+Customer_351,Salad,2,400,21.5,180
+Customer_352,Dosa,1,250,35.8,130
+Customer_353,Fried Rice,2,400,83.9,252
+Customer_354,Pasta,3,550,104.3,426
+Customer_355,Thali,3,550,13.7,637
+Customer_356,Dosa,3,550,117.2,255
+Customer_357,Noodles,2,400,12.9,237
+Customer_358,Sandwich,2,400,88.9,201
+Customer_359,Noodles,3,550,158.6,330
+Customer_360,Thali,3,550,162.4,602
+Customer_361,Ice Cream,1,250,39,90
+Customer_362,Dosa,1,250,28.6,130
+Customer_363,Pasta,3,550,127,412
+Customer_364,Thali,1,250,92.6,300
+Customer_365,Biryani,3,550,32.4,400
+Customer_366,Ice Cream,2,400,47.6,137
+Customer_367,Biryani,2,400,156.8,305
+Customer_368,Thali,2,400,50.1,435
+Customer_369,Pasta,3,550,186.1,438
+Customer_370,Pizza,3,550,109.8,524
+Customer_371,Pizza,2,400,8.3,369
+Customer_372,Pizza,1,250,4.4,250
+Customer_373,Sandwich,2,400,27.3,200
+Customer_374,Dosa,2,400,44.2,194
+Customer_375,Burger,3,550,120.9,305
+Customer_376,Ice Cream,2,400,134.8,127
+Customer_377,Burger,1,250,92.1,150
+Customer_378,Pizza,2,400,98.9,381
+Customer_379,Burger,3,550,42.6,293
+Customer_380,Pasta,2,400,46.2,338
+Customer_381,Sandwich,2,400,142,214
+Customer_382,Soup,2,400,14.2,151
+Customer_383,Fried Rice,1,250,43.6,180
+Customer_384,Biryani,2,400,139.6,299
+Customer_385,Dosa,1,250,57.5,130
+Customer_386,Ice Cream,2,400,59.2,136
+Customer_387,Dosa,3,550,144.1,266
+Customer_388,Soup,1,250,35.4,100
+Customer_389,Biryani,2,400,73.3,283
+Customer_390,Thali,1,250,11.8,300
+Customer_391,Sandwich,1,250,2.5,140
+Customer_392,Soup,1,250,84.6,100
+Customer_393,Biryani,2,400,145.8,293
+Customer_394,Soup,1,250,34.2,100
+Customer_395,Pizza,2,400,105,385
+Customer_396,Noodles,3,550,210.5,309
+Customer_397,Pasta,1,250,81.9,220
+Customer_398,Salad,2,400,113.4,179
+Customer_399,Noodles,3,550,148.2,307
+Customer_400,Pizza,2,400,1.1,351
+Customer_401,Dosa,2,400,15.4,182
+Customer_402,Salad,1,250,37.2,120
+Customer_403,Burger,1,250,85.5,150
+Customer_404,Soup,1,250,61.4,100
+Customer_405,Dosa,1,250,42.4,130
+Customer_406,Pizza,3,550,70.8,478
+Customer_407,Pizza,2,400,69.1,383
+Customer_408,Noodles,1,250,83.5,160
+Customer_409,Fried Rice,2,400,15.8,269
+Customer_410,Pasta,3,550,191.4,424
+Customer_411,Salad,1,250,4.3,120
+Customer_412,Pasta,1,250,83.2,220
+Customer_413,Salad,1,250,40,120
+Customer_414,Noodles,3,550,174,318
+Customer_415,Noodles,2,400,143.6,241
+Customer_416,Noodles,3,550,18.3,317
+Customer_417,Sandwich,1,250,4.1,140
+Customer_418,Pasta,1,250,79.4,220
+Customer_419,Dosa,1,250,37,130
+Customer_420,Ice Cream,1,250,24.1,90
+Customer_421,Biryani,1,250,20.8,200
+Customer_422,Dosa,3,550,102.8,248
+Customer_423,Pasta,2,400,95.1,319
+Customer_424,Burger,2,400,127.5,213
+Customer_425,Pasta,1,250,10.6,220
+Customer_426,Noodles,2,400,89.6,233
+Customer_427,Pizza,3,550,74.7,492
+Customer_428,Fried Rice,1,250,82.6,180
+Customer_429,Biryani,2,400,73.7,281
+Customer_430,Thali,2,400,115.3,422
+Customer_431,Sandwich,2,400,118.3,201
+Customer_432,Soup,1,250,66.8,100
+Customer_433,Noodles,2,400,41.5,235
+Customer_434,Pasta,1,250,48.6,220
+Customer_435,Pizza,3,550,12,485
+Customer_436,Dosa,1,250,34.3,130
+Customer_437,Ice Cream,1,250,77.1,90
+Customer_438,Pizza,3,550,197.9,482
+Customer_439,Sandwich,1,250,0.8,140
+Customer_440,Salad,1,250,2.7,120
+Customer_441,Noodles,1,250,67.8,160
+Customer_442,Dosa,2,400,14.4,195
+Customer_443,Burger,3,550,130.2,305
+Customer_444,Noodles,3,550,158.1,317
+Customer_445,Pizza,1,250,15.7,250
+Customer_446,Salad,2,400,144.8,172
+Customer_447,Biryani,2,400,63.5,303
+Customer_448,Fried Rice,1,250,15.5,180
+Customer_449,Pizza,3,550,218.2,495
+Customer_450,Pizza,1,250,3.5,250
+Customer_451,Pizza,3,550,39.6,480
+Customer_452,Pasta,3,550,0.3,461
+Customer_453,Ice Cream,2,400,149.2,137
+Customer_454,Noodles,1,250,23.6,160
+Customer_455,Biryani,2,400,77.4,293
+Customer_456,Ice Cream,2,400,11.5,134
+Customer_457,Pasta,1,250,87.2,220
+Customer_458,Biryani,3,550,159.8,381
+Customer_459,Fried Rice,3,550,20,333
+Customer_460,Pasta,3,550,51.3,457
+Customer_461,Biryani,2,400,46.5,303
+Customer_462,Pizza,1,250,48.9,250
+Customer_463,Thali,2,400,65.4,453
+Customer_464,Thali,1,250,46.4,300
+Customer_465,Salad,1,250,92.5,120
+Customer_466,Sandwich,2,400,3.7,216
+Customer_467,Thali,2,400,46.9,422
+Customer_468,Soup,1,250,15.9,100
+Customer_469,Soup,2,400,134.9,143
+Customer_470,Salad,2,400,1.7,172
+Customer_471,Pizza,1,250,47.2,250
+Customer_472,Ice Cream,1,250,81.1,90
+Customer_473,Fried Rice,2,400,88.1,261
+Customer_474,Pizza,3,550,145,482
+Customer_475,Biryani,3,550,47,403
+Customer_476,Sandwich,1,250,10.3,140
+Customer_477,Burger,3,550,28.9,289
+Customer_478,Sandwich,1,250,33.7,140
+Customer_479,Sandwich,2,400,115.5,197
+Customer_480,Ice Cream,1,250,64.8,90
+Customer_481,Sandwich,2,400,149.8,198
+Customer_482,Sandwich,1,250,99.4,140
+Customer_483,Sandwich,2,400,40.2,209
+Customer_484,Noodles,2,400,42.4,229
+Customer_485,Pizza,3,550,126,486
+Customer_486,Sandwich,2,400,128.8,213
+Customer_487,Pizza,2,400,43.9,386
+Customer_488,Noodles,3,550,113.9,336
+Customer_489,Pasta,2,400,141.1,321
+Customer_490,Sandwich,1,250,77.7,140
+Customer_491,Pizza,1,250,53,250
+Customer_492,Pasta,3,550,135.4,436
+Customer_493,Pasta,1,250,58.1,220
+Customer_494,Pasta,3,550,60.6,432
+Customer_495,Biryani,1,250,78.2,200
+Customer_496,Pasta,3,550,133.7,424
+Customer_497,Dosa,2,400,48.4,200
+Customer_498,Burger,2,400,130.8,212
+Customer_499,Pizza,1,250,73.8,250
+Customer_500,Dosa,3,550,21.9,239
+Customer_501,Dosa,2,400,38.5,196
+Customer_502,Pizza,3,550,165.1,511
+Customer_503,Ice Cream,2,400,46,134
+Customer_504,Fried Rice,3,550,191.8,371
+Customer_505,Soup,2,400,144.4,142
+Customer_506,Fried Rice,1,250,84.6,180
+Customer_507,Sandwich,2,400,58.8,201
+Customer_508,Soup,2,400,146.7,141
+Customer_509,Ice Cream,1,250,45.5,90
+Customer_510,Salad,2,400,152.2,171
+Customer_511,Ice Cream,1,250,48.4,90
+Customer_512,Pasta,3,550,180.8,441
+Customer_513,Burger,3,550,11.5,298
+Customer_514,Fried Rice,3,550,213,382
+Customer_515,Salad,2,400,78.2,183
+Customer_516,Soup,2,400,89.6,149
+Customer_517,Noodles,1,250,83.1,160
+Customer_518,Thali,1,250,27.6,300
+Customer_519,Dosa,1,250,78,130
+Customer_520,Soup,2,400,88.7,152
+Customer_521,Fried Rice,1,250,43.6,180
+Customer_522,Pizza,3,550,33.9,503
+Customer_523,Fried Rice,1,250,8.8,180
+Customer_524,Pizza,2,400,90.6,373
+Customer_525,Sandwich,2,400,40.6,210
+Customer_526,Salad,2,400,157.1,176
+Customer_527,Dosa,2,400,34.7,187
+Customer_528,Pasta,2,400,18.2,336
+Customer_529,Dosa,1,250,36.2,130
+Customer_530,Thali,2,400,35.2,431
+Customer_531,Burger,2,400,40.8,211
+Customer_532,Salad,1,250,63.9,120
+Customer_533,Noodles,3,550,162.1,329
+Customer_534,Thali,1,250,33.1,300
+Customer_535,Soup,2,400,52.7,153
+Customer_536,Soup,2,400,24.9,147
+Customer_537,Pasta,2,400,40.9,328
+Customer_538,Ice Cream,1,250,98,90
+Customer_539,Dosa,1,250,94.1,130
+Customer_540,Burger,2,400,76.7,211
+Customer_541,Soup,1,250,40.1,100
+Customer_542,Fried Rice,1,250,39.4,180
+Customer_543,Burger,2,400,150.2,213
+Customer_544,Salad,2,400,62.6,178
+Customer_545,Pizza,2,400,114.3,358
+Customer_546,Biryani,3,550,171.7,377
+Customer_547,Salad,1,250,92.7,120
+Customer_548,Pizza,3,550,151.4,512
+Customer_549,Burger,3,550,190.1,320
+Customer_550,Pasta,2,400,6,320
+Customer_551,Pizza,3,550,98.3,538
+Customer_552,Soup,2,400,53.9,154
+Customer_553,Salad,2,400,140.7,171
+Customer_554,Fried Rice,2,400,40.6,261
+Customer_555,Biryani,3,550,13.9,402
+Customer_556,Burger,1,250,4.2,150
+Customer_557,Biryani,3,550,103.3,394
+Customer_558,Thali,1,250,25.9,300
+Customer_559,Pasta,3,550,49,424
+Customer_560,Biryani,3,550,38.4,412
+Customer_561,Ice Cream,2,400,56.1,130
+Customer_562,Soup,2,400,20,144
+Customer_563,Pasta,3,550,18.7,442
+Customer_564,Ice Cream,1,250,29,90
+Customer_565,Soup,2,400,113.4,149
+Customer_566,Pasta,1,250,36.8,220
+Customer_567,Dosa,2,400,64.2,194
+Customer_568,Fried Rice,1,250,39.8,180
+Customer_569,Biryani,2,400,126.4,299
+Customer_570,Salad,2,400,69.7,172
+Customer_571,Noodles,2,400,29.1,246
+Customer_572,Noodles,2,400,81.6,228
+Customer_573,Sandwich,1,250,80.2,140
+Customer_574,Thali,3,550,152.7,587
+Customer_575,Fried Rice,1,250,5.7,180
+Customer_576,Pizza,1,250,1.1,250
+Customer_577,Noodles,3,550,127.7,316
+Customer_578,Sandwich,1,250,27.3,140
+Customer_579,Burger,3,550,87.2,312
+Customer_580,Ice Cream,2,400,78,134
+Customer_581,Burger,2,400,51.5,231
+Customer_582,Soup,1,250,74.5,100
+Customer_583,Biryani,2,400,81.4,285
+Customer_584,Pasta,1,250,63,220
+Customer_585,Pizza,2,400,9.1,364
+Customer_586,Pizza,1,250,75.4,250
+Customer_587,Pasta,1,250,52.3,220
+Customer_588,Soup,1,250,49.9,100
+Customer_589,Burger,3,550,36.1,317
+Customer_590,Salad,2,400,75,181
+Customer_591,Salad,2,400,23.8,172
+Customer_592,Ice Cream,2,400,97,129
+Customer_593,Dosa,1,250,54.9,130
+Customer_594,Thali,3,550,179.4,560
+Customer_595,Dosa,1,250,81.5,130
+Customer_596,Salad,2,400,34.8,179
+Customer_597,Soup,1,250,99.6,100
+Customer_598,Dosa,1,250,66,130
+Customer_599,Sandwich,2,400,61.2,200
+Customer_600,Burger,1,250,18.1,150
+Customer_601,Pizza,1,250,9.7,250
+Customer_602,Dosa,3,550,117.2,253
+Customer_603,Thali,2,400,88.4,437
+Customer_604,Fried Rice,2,400,142.7,272
+Customer_605,Biryani,3,550,38.2,396
+Customer_606,Soup,2,400,138.8,149
+Customer_607,Pizza,3,550,151.7,480
+Customer_608,Pasta,2,400,121.6,314
+Customer_609,Fried Rice,3,550,4.1,373
+Customer_610,Burger,2,400,135.5,214
+Customer_611,Burger,2,400,150.3,231
+Customer_612,Salad,2,400,74.4,182
+Customer_613,Dosa,3,550,120.7,262
+Customer_614,Soup,2,400,6,149
+Customer_615,Pasta,3,550,202.7,429
+Customer_616,Fried Rice,2,400,16.2,258
+Customer_617,Soup,1,250,58.7,100
+Customer_618,Pasta,1,250,27.9,220
+Customer_619,Pasta,1,250,49.2,220
+Customer_620,Dosa,2,400,56.7,191
+Customer_621,Salad,1,250,43.3,120
+Customer_622,Ice Cream,1,250,86.3,90
+Customer_623,Sandwich,2,400,148.8,197
+Customer_624,Salad,1,250,58.2,120
+Customer_625,Burger,2,400,109.8,214
+Customer_626,Dosa,1,250,86.1,130
+Customer_627,Noodles,1,250,56.9,160
+Customer_628,Soup,1,250,66.5,100
+Customer_629,Salad,2,400,117.4,185
+Customer_630,Pizza,2,400,134.7,379
+Customer_631,Pizza,1,250,32.1,250
+Customer_632,Noodles,3,550,174.9,317
+Customer_633,Burger,1,250,26.4,150
+Customer_634,Thali,1,250,8.1,300
+Customer_635,Fried Rice,3,550,182.3,373
+Customer_636,Pasta,1,250,69.6,220
+Customer_637,Sandwich,1,250,75.7,140
+Customer_638,Noodles,1,250,55.4,160
+Customer_639,Sandwich,2,400,36.3,216
+Customer_640,Ice Cream,1,250,40.4,90
+Customer_641,Pizza,2,400,117.1,360
+Customer_642,Burger,1,250,74.5,150
+Customer_643,Ice Cream,2,400,94.6,130
+Customer_644,Pasta,2,400,158,325
+Customer_645,Biryani,3,550,29.9,426
+Customer_646,Noodles,1,250,57,160
+Customer_647,Dosa,2,400,11,187
+Customer_648,Sandwich,1,250,47.5,140
+Customer_649,Burger,1,250,91.1,150
+Customer_650,Biryani,2,400,149.5,307
+Customer_651,Sandwich,2,400,95,205
+Customer_652,Thali,1,250,12,300
+Customer_653,Fried Rice,3,550,72.1,358
+Customer_654,Thali,2,400,19.6,455
+Customer_655,Fried Rice,1,250,36.7,180
+Customer_656,Pizza,2,400,110.9,353
+Customer_657,Noodles,3,550,203.1,307
+Customer_658,Thali,1,250,4.6,300
+Customer_659,Pasta,3,550,1.5,470
+Customer_660,Biryani,1,250,72.7,200
+Customer_661,Salad,2,400,14.3,179
+Customer_662,Dosa,2,400,151.1,189
+Customer_663,Salad,1,250,18.1,120
+Customer_664,Fried Rice,1,250,76.4,180
+Customer_665,Dosa,2,400,18.2,199
+Customer_666,Pasta,3,550,104,407
+Customer_667,Ice Cream,1,250,20.6,90
+Customer_668,Noodles,1,250,97.8,160
+Customer_669,Fried Rice,2,400,57,254
+Customer_670,Thali,3,550,3,592
+Customer_671,Thali,1,250,68.6,300
+Customer_672,Fried Rice,2,400,50.1,260
+Customer_673,Thali,2,400,80,428
+Customer_674,Pizza,3,550,190.4,533
+Customer_675,Soup,2,400,14.6,150
+Customer_676,Biryani,3,550,191.8,388
+Customer_677,Biryani,3,550,102.6,411
+Customer_678,Pizza,3,550,10.3,474
+Customer_679,Noodles,2,400,41,239
+Customer_680,Ice Cream,2,400,62.7,139
+Customer_681,Pasta,1,250,17.6,220
+Customer_682,Noodles,3,550,28.2,330
+Customer_683,Thali,3,550,49.5,596
+Customer_684,Soup,2,400,7.4,144
+Customer_685,Soup,2,400,68.3,145
+Customer_686,Burger,2,400,12.7,211
+Customer_687,Biryani,2,400,75.8,280
+Customer_688,Dosa,3,550,215.3,266
+Customer_689,Thali,3,550,59.6,596
+Customer_690,Pasta,3,550,35.4,433
+Customer_691,Pizza,2,400,88,366
+Customer_692,Ice Cream,2,400,23,136
+Customer_693,Fried Rice,1,250,59.4,180
+Customer_694,Fried Rice,3,550,45.3,334
+Customer_695,Fried Rice,1,250,78.4,180
+Customer_696,Dosa,2,400,76.4,189
+Customer_697,Pasta,3,550,195.6,436
+Customer_698,Biryani,3,550,173.9,405
+Customer_699,Fried Rice,2,400,61.9,261
+Customer_700,Salad,1,250,19.2,120
+Customer_701,Ice Cream,1,250,30.6,90
+Customer_702,Pizza,1,250,22.8,250
+Customer_703,Biryani,2,400,4.6,290
+Customer_704,Ice Cream,2,400,91.6,133
+Customer_705,Thali,3,550,69.9,607
+Customer_706,Biryani,3,550,31.3,405
+Customer_707,Sandwich,2,400,41.1,197
+Customer_708,Dosa,3,550,71.2,240
+Customer_709,Thali,2,400,120,435
+Customer_710,Sandwich,2,400,110.1,213
+Customer_711,Sandwich,2,400,68.9,215
+Customer_712,Noodles,2,400,45.4,233
+Customer_713,Thali,3,550,82,600
+Customer_714,Pasta,1,250,42.9,220
+Customer_715,Dosa,3,550,52.8,266
+Customer_716,Pasta,3,550,165.7,418
+Customer_717,Fried Rice,2,400,51.2,263
+Customer_718,Sandwich,1,250,93.1,140
+Customer_719,Dosa,1,250,37.7,130
+Customer_720,Burger,3,550,176.7,296
+Customer_721,Fried Rice,3,550,163.2,373
+Customer_722,Salad,1,250,77.2,120
+Customer_723,Noodles,2,400,40,229
+Customer_724,Soup,1,250,65,100
+Customer_725,Dosa,2,400,133.6,187
+Customer_726,Pasta,3,550,210.6,451
+Customer_727,Noodles,2,400,20.5,246
+Customer_728,Pasta,2,400,61.9,323
+Customer_729,Biryani,3,550,24.9,375
+Customer_730,Dosa,3,550,135.8,265
+Customer_731,Fried Rice,3,550,136.9,371
+Customer_732,Biryani,2,400,63.6,300
+Customer_733,Burger,1,250,14.9,150
+Customer_734,Fried Rice,1,250,47.4,180
+Customer_735,Sandwich,2,400,17.2,211
+Customer_736,Thali,1,250,69.5,300
+Customer_737,Noodles,1,250,69.9,160
+Customer_738,Biryani,2,400,76.3,307
+Customer_739,Soup,1,250,63,100
+Customer_740,Thali,1,250,54.4,300
+Customer_741,Noodles,1,250,30.6,160
+Customer_742,Noodles,2,400,134.4,243
+Customer_743,Fried Rice,2,400,22.3,274
+Customer_744,Biryani,1,250,86,200
+Customer_745,Fried Rice,2,400,75.4,276
+Customer_746,Pasta,2,400,109.9,316
+Customer_747,Fried Rice,1,250,24.4,180
+Customer_748,Sandwich,1,250,90.9,140
+Customer_749,Dosa,2,400,80.9,191
+Customer_750,Pasta,3,550,209.5,430
+Customer_751,Salad,2,400,72.5,170
+Customer_752,Dosa,2,400,143.4,201
+Customer_753,Burger,2,400,127.6,218
+Customer_754,Pizza,2,400,9.6,367
+Customer_755,Fried Rice,3,550,93.2,346
+Customer_756,Fried Rice,1,250,75.4,180
+Customer_757,Pasta,1,250,60.7,220
+Customer_758,Ice Cream,2,400,32.1,135
+Customer_759,Thali,3,550,5.7,586
+Customer_760,Fried Rice,3,550,179.3,337
