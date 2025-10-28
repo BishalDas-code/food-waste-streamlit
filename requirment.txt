@@ -1,5 +1,6 @@
-
-streamlit
-pandas
-scikit-learn
-numpy
+import streamlit as st
+import pandas as pd
+import pickle
+import numpy as np          # if you use numpy
+import altair as alt        # if you use charts
+from sklearn.linear_model import LinearRegression
