@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Waste Prediction App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fb;
+        }
+        /* Custom progress bar appearance */
+        .waste-progress-container {
+            height: 12px;
+            background-color: #e5e7eb;
+            border-radius: 9999px;
+            overflow: hidden;
+            margin-top: 8px;
+        }
+        .waste-progress-bar {
+            height: 100%;
+            transition: width 0.5s ease-in-out, background-color 0.5s ease-in-out;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <div id="app" class="max-w-4xl mx-auto bg-white shadow-xl rounded-2xl p-6 md:p-10">
+
+        <!-- ===== Landing Page Header (Mimicking st.markdown) ===== -->
+        <div class="text-center p-5 bg-blue-50/70 border border-blue-100 rounded-xl mb-8 shadow-sm">
+            <h1 class="text-3xl md:text-4xl font-extrabold text-red-500 flex items-center justify-center">
+                <span class="mr-3">🍽️</span> Food Waste Prediction App
+            </h1>
+            <p class="text-gray-600 mt-2 text-base md:text-lg">Predict leftover food, see the waste category, and get actionable suggestions!</p>
+        </div>
+
+        <hr class="border-gray-200 mb-6">
+
+        <!-- ===== Input Fields (Mimicking st.columns) ===== -->
+        <h2 class="text-2xl font-semibold text-gray-800 mb-5">Input Parameters</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+            <div class="space-y-2">
+                <label for="food" class="text-sm font-medium text-gray-700 block">🍔 Select Food Item</label>
+                <select id="food" class="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-red-500 focus:border-red-500 transition duration-150">
+                    <option value="Pizza">Pizza</option>
+                    <option value="Burger">Burger</option>
+                    <option value="Pasta">Pasta</option>
+                    <option value="Noodles">Noodles</option>
+                    <option value="Salad">Salad</option>
+                    <option value="Soup">Soup</option>
+                    <option value="Fried Rice">Fried Rice</option>
+                    <option value="Thali">Thali</option>
+                    <option value="Biryani">Biryani</option>
+                    <option value="Dosa">Dosa</option>
+                    <option value="Sandwich">Sandwich</option>
+                    <option value="Ice Cream">Ice Cream</option>
+                </select>
+            </div>
+
+            <div class="space-y-2">
+                <label for="plate_size" class="text-sm font-medium text-gray-700 block">🍽️ Plate Size</label>
+                <select id="plate_size" class="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-red-500 focus:border-red-500 transition duration-150">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+
+            <div class="space-y-2">
+                <label for="serving_weight" class="text-sm font-medium text-gray-700 block">⚖️ Serving Food Weight (grams)</label>
+                <input type="number" id="serving_weight" value="250" min="100" max="600" step="50" class="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-red-500 focus:border-red-500 transition duration-150">
+            </div>
+
+            <div class="space-y-2">
+                <label for="price" class="text-sm font-medium text-gray-700 block">💰 Price (₹)</label>
+                <input type="number" id="price" value="250" min="50" max="1000" step="10" class="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-red-500 focus:border-red-500 transition duration-150">
+            </div>
+
+        </div>
+
+        <button onclick="runPrediction()" class="w-full mt-8 py-3 px-4 bg-red-500 text-white font-bold text-lg rounded-xl hover:bg-red-600 transition duration-300 shadow-md hover:shadow-lg transform hover:scale-[1.005]">
+            Get Prediction
+        </button>
+
+        <hr class="border-gray-200 my-8">
+
+        <!-- ===== Output Section (Mimicking st.subheader, st.metric, st.progress) ===== -->
+        <div id="output-section" class="hidden">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">📊 Prediction Result</h2>
+
+            <!-- Waste Category -->
+            <div class="p-4 rounded-xl mb-4 border-l-4 shadow-md" id="waste-category-card">
+                <h3 class="text-xl font-bold" id="waste-category-h3"></h3>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Predicted Leftover Metric -->
+                <div class="bg-gray-50 p-4 rounded-xl border border-gray-200 shadow-sm">
+                    <p class="text-sm font-medium text-gray-500">Predicted Leftover (grams)</p>
+                    <p class="text-3xl font-extrabold text-gray-800 mt-1" id="predicted-leftover-metric"></p>
+                </div>
+
+                <!-- Suggestion -->
+                <div class="bg-gray-50 p-4 rounded-xl border border-gray-200 shadow-sm">
+                    <p class="text-sm font-medium text-gray-500">Suggestion</p>
+                    <p class="text-xl font-semibold text-gray-700 mt-1" id="suggestion-text"></p>
+                </div>
+            </div>
+
+            <!-- Progress Bar Visualization -->
+            <div class="mt-6">
+                <p class="text-sm font-medium text-gray-700 mb-1">Waste Percentage of Serving</p>
+                <div class="waste-progress-container">
+                    <div id="waste-progress-bar" class="waste-progress-bar" style="width: 0%; background-color: #e5e7eb;"></div>
+                </div>
+                <p class="text-right text-xs text-gray-500 mt-1" id="waste-percent-text"></p>
+            </div>
+        </div>
+
+        <!-- ===== Optional Info Box (Mimicking st.info) ===== -->
+        <div class="mt-8 p-4 bg-blue-50 border-l-4 border-blue-500 rounded-lg text-blue-800" role="alert">
+            <p class="font-bold">Instructions:</p>
+            <ul class="list-disc list-inside space-y-1 ml-4 text-sm">
+                <li>Select the food item and plate size.</li>
+                <li>Input the serving weight and price.</li>
+                <li>Click the button to see leftover estimation, waste category, and recommendations.</li>
+                <li>Use this info to optimize menu, portion sizes, or pricing!</li>
+            </ul>
+        </div>
+
+        <!-- ===== Footer (Mimicking st.markdown) ===== -->
+        <div class="mt-10 text-center text-xs text-gray-400">
+            <p>Created for Hackathon Demo | Made with ❤️ in JavaScript/Tailwind CSS</p>
+        </div>
+
+    </div>
+
+    <script>
+        const FOOD_ITEMS = ['Pizza', 'Burger', 'Pasta', 'Noodles', 'Salad', 'Soup', 'Fried Rice', 'Thali', 'Biryani', 'Dosa', 'Sandwich', 'Ice Cream'];
+        const COLORS = {
+            'Low': { bg: 'bg-green-100', border: 'border-green-500', text: 'text-green-700', progress: '#28a745' },
+            'Medium': { bg: 'bg-yellow-100', border: 'border-yellow-500', text: 'text-yellow-700', progress: '#ffc107' },
+            'High': { bg: 'bg-orange-100', border: 'border-orange-500', text: 'text-orange-700', progress: '#fd7e14' },
+            'Very High': { bg: 'bg-red-100', border: 'border-red-500', text: 'text-red-700', progress: '#dc3545' }
+        };
+
+        /**
+         * Heuristic Prediction Function (Replaces the ML model)
+         * This function mimics the model output using simple rules based on the inputs.
+         */
+        function calculateWaste(food, plateSize, servingWeight, price) {
+            let baseWaste = servingWeight * 0.1; // Start with 10% base waste
+
+            // 1. Adjust based on food type (heavy/richer foods often lead to more leftovers)
+            const heavyFoods = ['Pizza', 'Burger', 'Biryani', 'Thali', 'Ice Cream'];
+            if (heavyFoods.includes(food)) {
+                baseWaste += servingWeight * 0.05; // +5% for rich foods
+            } else if (food === 'Salad' || food === 'Soup' || food === 'Dosa') {
+                 baseWaste -= servingWeight * 0.03; // -3% for lighter items
+            }
+
+            // 2. Adjust based on plate size (larger plate size/more ambitious serving)
+            baseWaste += (plateSize - 1) * 15; // +15g for size 2, +30g for size 3
+
+            // 3. Adjust based on serving weight and price (assume larger/more expensive means more luxury leftovers)
+            baseWaste += (servingWeight / 500) * 10;
+            baseWaste += (price / 500) * 5;
+
+            // Ensure it's bounded
+            let predictedLeftover = Math.max(0, baseWaste);
+            predictedLeftover = Math.min(predictedLeftover, servingWeight * 0.9); // Max 90% waste
+
+            return predictedLeftover;
+        }
+
+        function runPrediction() {
+            const food = document.getElementById('food').value;
+            const plateSize = parseInt(document.getElementById('plate_size').value);
+            const servingWeight = parseFloat(document.getElementById('serving_weight').value);
+            const price = parseFloat(document.getElementById('price').value);
+
+            // --- 1. Get Predicted Leftover ---
+            const predictedLeftover = calculateWaste(food, plateSize, servingWeight, price);
+
+            // --- 2. Calculate Waste Category ---
+            const wastePercent = (predictedLeftover / servingWeight) * 100;
+            let wasteCategory;
+            let suggestion;
+
+            if (wastePercent <= 10) {
+                wasteCategory = "Low";
+                suggestion = "✅ Keep as is / promote";
+            } else if (wastePercent <= 25) {
+                wasteCategory = "Medium";
+                suggestion = "⚠️ Monitor portion sizes";
+            } else if (wastePercent <= 50) {
+                wasteCategory = "High";
+                suggestion = "📉 Reduce portion or adjust price";
+            } else {
+                wasteCategory = "Very High";
+                suggestion = "🚨 High waste! Rethink serving size or menu item";
+            }
+
+            // --- 3. Update UI ---
+            const color = COLORS[wasteCategory];
+            const percentLeftover = Math.min(predictedLeftover / servingWeight, 1.0);
+
+            // Output Visibility
+            document.getElementById('output-section').classList.remove('hidden');
+
+            // Category Card
+            const categoryCard = document.getElementById('waste-category-card');
+            categoryCard.className = `p-4 rounded-xl mb-4 shadow-md transition duration-300 border-l-4 ${color.bg} ${color.border}`;
+            document.getElementById('waste-category-h3').innerHTML = `<span class="${color.text}">${wasteCategory} Waste</span>`;
+
+            // Metric and Suggestion
+            document.getElementById('predicted-leftover-metric').textContent = `${predictedLeftover.toFixed(2)} g`;
+            document.getElementById('suggestion-text').textContent = suggestion;
+
+            // Progress Bar
+            const progressBar = document.getElementById('waste-progress-bar');
+            progressBar.style.width = `${(percentLeftover * 100).toFixed(2)}%`;
+            progressBar.style.backgroundColor = color.progress;
+            document.getElementById('waste-percent-text').textContent = `${wastePercent.toFixed(1)}% of serving wasted.`;
+        }
+
+        // Initialize prediction on load to show a default state
+        window.onload = runPrediction;
+
+    </script>
+</body>
+</html>
